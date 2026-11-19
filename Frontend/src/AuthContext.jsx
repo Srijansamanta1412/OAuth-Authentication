@@ -1,6 +1,6 @@
 import { createContext, useContext, useState, useEffect, useCallback } from "react";
 
-const API = import.meta.env.VITE_API_URL ?? "http://localhost:8000";
+const API = import.meta.env.VITE_API_URL ?? "https://o-auth-authentication.vercel.app";
 const TOKEN_KEY = "sso_token";
 
 const AuthContext = createContext(null);

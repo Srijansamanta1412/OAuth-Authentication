@@ -2,7 +2,7 @@ import { useState } from "react";
 import { useAuth } from "./AuthContext";
 import { useAuth0 } from "@auth0/auth0-react";
 
-const AUTH0_API = import.meta.env.VITE_AUTH0_API_URL ?? "http://localhost:8001";
+const AUTH0_API = import.meta.env.VITE_AUTH0_API_URL ?? "https://third-party-oauth.vercel.app";
 
 export default function Dashboard() {
   const {
